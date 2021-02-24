@@ -49,7 +49,7 @@ I studied HTML and CSS on my own using the available literature, video materials
 
 Now I'm a 3rd year student of BNTU. I am getting higher technical education.
 
-## English practiсe
+## English practiсe 
 
 The practice consisted of live communication with an engineer from Вelgium on the maintenance and repair of complex equipment. 
 
