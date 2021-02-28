@@ -37,16 +37,23 @@ h1,h2,h3,h4,h5,h6 {
 
 /*Nav*/
 
-.nav{
+.nav {
+    display: block;
     font-size: 16px;
     text-transform: uppercase;
-    text-align: center;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
     margin-top: 30px;
+    padding-left: 0;
 }
 
 .nav__link {
     position: relative;
-    display: inline-block;
+    display: block;
     vertical-align: top;
     color: #fea18d;
     text-decoration: none;
@@ -120,8 +127,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .intro__social {
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
 }
 
 .social__item{
@@ -224,6 +233,18 @@ h1,h2,h3,h4,h5,h6 {
     color: #494949;
     margin-bottom: 0;
     opacity: .8;
+}
+
+.code__ex {
+     color: #494949;
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 10px;
+    transition: color .1s linear;
+}
+
+.code__ex:hover {
+    color:  #00897b;
 }
 
 .resume__bottom {
@@ -383,6 +404,9 @@ h1,h2,h3,h4,h5,h6 {
 .footer__item:hover{
     color: #fff;
 }
+
+
+
 
 
 
